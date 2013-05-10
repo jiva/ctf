@@ -32,9 +32,9 @@ for _ in xrange(20):
 	avg_len = math.ceil(float(sum(lengths.values())) / len(lengths))
 	for char,length in lengths.items():
 		if _ == 11: # GHETTO IM SO SORRY ABOUT THIS
-				flag += 'i'
-				print 'FLAG SO FAR:', flag
-				break
+			flag += 'i'
+			print 'FLAG SO FAR:', flag
+			break
 		if lengths[char] < avg_len:
 			if _ == 1 and char == 'c': continue # GHETTO IM SO SORRY ABOUT THIS
 			if _ == 10 and char == '_': continue # GHETTO IM SO SORRY ABOUT THIS	
