@@ -19,7 +19,7 @@ nonce = s.recv(8)
 flag = ''
 
 for _ in xrange(20):
-  avg_len = 0
+	avg_len = 0
 	lengths = {}
 	for c in string.lowercase + '_':
 		send_data = (flag+c)*10
