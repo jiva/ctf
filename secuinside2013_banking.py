@@ -1,4 +1,3 @@
-
 # template: blindeye.py
 # fast blind MySQLi using bit shifts (exactly 8 requests per char instead of 127 per char)
 # modified to pwn the "banking" challenge from secuinside 2013
